@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/*global classes*/
+button,
+button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.font-Roboto {
+  font-family: "Roboto", ital;
+}
+
+.font-size-34 {
+  font-size: 34px;
+}
+
+.font-size-24 {
+  font-size: 24px;
+}
+
+.font-size-30 {
+  font-size: 30px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.color-primary {
+  color: #003859;
+}
+
+.color-second {
+  color: #00a5c4;
+}
+
+.color-second-bg {
+  background: #00a5c4;
+}
+
+.color-primary-bg {
+  background: #003859;
+}
+
+.color-yellow {
+  color: #ffd289;
+}
+
+.color-yellow-bg {
+  background: #ffd289;
+}
+
+.color-white {
+  color: white;
+}
+
+.color-white-bg {
+  background: white;
+}
+
+#top-sale .owl-carousel .item .product {
+  overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+  transform: scale(1, 1);
+}
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  top: 30%;
+  outline: none;
+  left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+  font-size: 35px;
+  color: #003859;
+  margin-left: -4rem;
+  padding: 0 1rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  top: 30%;
+  outline: none;
+  right: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: #003859;
+  margin-right: -4rem;
+  padding: 0 1rem;
+}
+
+#special-price .grid .grid-item {
+  margin-right: 1.2rem;
+  margin-top: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
